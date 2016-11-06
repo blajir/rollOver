@@ -1,0 +1,21 @@
+html{
+  font-size: 62.5%;
+}
+img{
+  vertical-align: bottom;
+}
+h1{
+  line-height: 1.6;
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.6;
+}
+p{
+  text-align: center;
+}
