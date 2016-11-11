@@ -6,19 +6,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="./css/index.css">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+  <script src="./js/index.js"></script>
 </head>
 <body>
   <h1>rollOver.js</h1>
   <h2>fade</h2>
-  <p>
+  <section>
     <img class="hover" src="./img/miochan.jpg" width="300" alt="">
-  </p>
+  </section>
   <br>
   <h2>nomal</h2>
-  <p>
+  <section>
     <img class="hover1" src="./img/miochan.jpg" width="300" alt="">
-  </p>
+  </section>
+  <h2>opacity</h2>
+  <section>
+    <img class="hover2" src="./img/miochan.jpg" width="300" alt="">
+  </section>
   <script>
     $(function () {
       $('.hover').rollOver({ //対象のDOM
@@ -27,6 +31,9 @@
         easing: 'swing'
       });
       $('.hover1').rollOver();
+      $('.hover2').rollOver({
+        opacity: .6
+      });
     });
   </script>
 </body>

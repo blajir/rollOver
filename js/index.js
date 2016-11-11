@@ -13,7 +13,8 @@
       // 置き換える画像の接尾辞
       suffix_replace: '_on',
       fade: false,
-      easing: 'linear'
+      easing: 'linear',
+      opacity: false
     };
 
     // 渡されたオプションとデフォルト値をマージ
@@ -47,6 +48,15 @@
           this.src = src;
         }
       });
+    } else if (config.opacity) {
+      element.on({
+        'mouseenter.rollover': function () {
+          $(this).css('opacity', config.opacity);
+        },
+        'mouseleave.rollover': function () {
+          $(this).css('opacity', 1);
+        }
+      })
     } else {
       element.on({
         'mouseenter.rollover': function () {
