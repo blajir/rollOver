@@ -1,0 +1,23 @@
+{
+  "name": "rollOver",
+  "description": "ロールオーバーのシンプルなプラグイン ##使い方",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blajir/rollOver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blajir/rollOver/issues"
+  },
+  "homepage": "https://github.com/blajir/rollOver#readme",
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
+}
