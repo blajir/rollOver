@@ -16,6 +16,9 @@ h2{
   text-align: center;
   line-height: 1.6;
 }
-p{
+section, p{
   text-align: center;
+}
+section{
+  margin-bottom: 40px;
 }
